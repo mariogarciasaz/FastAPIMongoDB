@@ -1,7 +1,6 @@
 from pymongo import MongoClient
 
-# conn = MongoClient("mongodb://localhost:27017/")
-conn = MongoClient("mongodb+srv://mariogarciasaz:Drogofunko1@cluster0.iiwnqgw.mongodb.net/?retryWrites=true&w=majority").test
+conn = MongoClient("mongodb://localhost:27017/")
 db = conn["local"]
 
 users_collection = db["user"]
